@@ -1,8 +1,7 @@
 const BASE_URL = "https://promptbros.github.io/CDN/ChatGPT/";
 
 function fetchAndDisplayTextFile(filename, fileItem) {
-  const baseUrl = (BASE_URL + filename);
-  fetch(baseUrl + filename)
+  fetch(BASE_URL + filename)
     .then((response) => response.text())
     .then((text) => {
       fileItem.innerHTML = `
@@ -14,7 +13,6 @@ function fetchAndDisplayTextFile(filename, fileItem) {
       console.error("Error fetching text file:", error);
     });
 }
-
 
 function displayFiles(files) {
   const fileList = document.getElementById("file-list");
@@ -29,8 +27,8 @@ function displayFiles(files) {
       title.classList.add("text-xl", "font-semibold", "mb-3");
       title.textContent = file.content.title;
       fileItem.appendChild(title);
-console.log(file.fileName);
-      fetchAndDisplayTextFile(file.fileName, fileItem);
+console.log(file);
+      fetchAndDisplayTextFile(file.name, fileItem);
   });
 
   new ClipboardJS("[data-clipboard-text]");
