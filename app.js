@@ -1,5 +1,7 @@
+const BASE_URL = "https://promptbros.github.io/CDN/ChatGPT/";
+
 function fetchAndDisplayTextFile(filename, fileItem) {
-  const baseUrl = "https://promptbros.github.io/CDN/ChatGPT/";
+  const baseUrl = (BASE_URL + filename);
   fetch(baseUrl + filename)
     .then((response) => response.text())
     .then((text) => {
@@ -54,4 +56,4 @@ document.getElementById("url-input").addEventListener("input", (event) => {
 });
 
 // Load the default template.json file from the provided URL
-fetchAndDisplayJSON("https://promptbros.github.io/CDN/ChatGPT/prompt.json");
+fetchAndDisplayJSON(BASE_URL + "prompt.json");
