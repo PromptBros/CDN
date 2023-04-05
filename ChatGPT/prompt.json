@@ -1,0 +1,21 @@
+[
+    {
+      "name": "cvo.txt",
+      "content": {
+        "title": "CVO - ChatGPT CV Optimizer",
+        "description": "This is the first ChatGPT prompt.",
+        "category": "Business",
+        "tags": ["business", "communication"]
+      }
+    },
+    {
+      "name": "pcurator.txt",
+      "content": {
+        "title": "The Curator",
+        "description": "This is the second ChatGPT prompt.",
+        "category": "Technology",
+        "tags": ["technology", "innovation"]
+      }
+    }
+  ]
+  
