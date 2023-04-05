@@ -28,7 +28,7 @@ function displayFiles(files) {
       title.textContent = file.content.title;
       fileItem.appendChild(title);
 console.log(file);
-      fetchAndDisplayTextFile(file.name, fileItem);
+      fetchAndDisplayTextFile(file.fileName, fileItem);
   });
 
   new ClipboardJS("[data-clipboard-text]");
