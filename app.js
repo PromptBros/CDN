@@ -1,16 +1,18 @@
-function fetchAndDisplayTextFile(url, fileItem) {
-  fetch(url)
-      .then((response) => response.text())
-      .then((text) => {
-          fileItem.innerHTML = `
-              <textarea class="w-full h-32 p-2 border mb-3" readonly>${text}</textarea>
-              <button class="bg-green-500 text-white px-3 py-1 rounded" data-clipboard-text="${text}">Copy</button>
-          `;
-      })
-      .catch((error) => {
-          console.error("Error fetching text file:", error);
-      });
+function fetchAndDisplayTextFile(filename, fileItem) {
+  const baseUrl = "https://promptbros.github.io/CDN/ChatGPT/";
+  fetch(baseUrl + filename)
+    .then((response) => response.text())
+    .then((text) => {
+      fileItem.innerHTML = `
+        <textarea class="w-full h-32 p-2 border mb-3" readonly>${text}</textarea>
+        <button class="bg-green-500 text-white px-3 py-1 rounded" data-clipboard-text="${text}">Copy</button>
+      `;
+    })
+    .catch((error) => {
+      console.error("Error fetching text file:", error);
+    });
 }
+
 
 function displayFiles(files) {
   const fileList = document.getElementById("file-list");
