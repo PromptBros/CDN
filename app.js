@@ -29,8 +29,8 @@ function displayFiles(files) {
       title.classList.add("text-xl", "font-semibold", "mb-3");
       title.textContent = file.content.title;
       fileItem.appendChild(title);
-
-      fetchAndDisplayTextFile(file.file, fileItem);
+console.log(file.fileName);
+      fetchAndDisplayTextFile(file.fileName, fileItem);
   });
 
   new ClipboardJS("[data-clipboard-text]");

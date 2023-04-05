@@ -1,6 +1,7 @@
 [
     {
-      "name": "cvo.txt",
+      "name": "CVO",
+      "fileName": "cvo.txt",
       "content": {
         "title": "CVO - ChatGPT CV Optimizer",
         "description": "This is the first ChatGPT prompt.",
@@ -9,7 +10,8 @@
       }
     },
     {
-      "name": "curator.txt",
+      "name": "Curator",
+      "fileName": "curator.txt",
       "content": {
         "title": "The Curator",
         "description": "This is the second ChatGPT prompt.",
