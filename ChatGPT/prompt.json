@@ -1,23 +1,24 @@
 [
-    {
-      "name": "CVO",
-      "fileName": "cvo.txt",
-      "content": {
-        "title": "CVO - ChatGPT CV Optimizer",
-        "description": "CVO or CV Optimizer, is an advanced ChatGPT prompt which will help you create tailored and optimized CVs for specific job roles using commands and flags.",
-        "category": "Business",
-        "tags": ["Business", "Recruitment"]
-      }
-    },
-    {
-      "name": "Curator",
-      "fileName": "curator.txt",
-      "content": {
-        "title": "The Curator",
-        "description": "This is the second ChatGPT prompt.",
-        "category": "Technology",
-        "tags": ["Art", "MidJorney", "Utility"]
-      }
+  {
+    "name": "CVO",
+    "fileName": "cvo.txt",
+    "content": {
+      "title": "CVO - ChatGPT CV Optimizer",
+      "description": "CVO or CV Optimizer, is an advanced ChatGPT prompt which will help you create tailored and optimized CVs for specific job roles using commands and flags.",
+      "category": "Business",
+      "tags": ["Business", "Recruitment"],
+      "images": ["logo.png"]
     }
-  ]
-  
+  },
+  {
+    "name": "Curator",
+    "fileName": "curator.txt",
+    "content": {
+      "title": "The Curator",
+      "description": "This is the second ChatGPT prompt.",
+      "category": "Technology",
+      "tags": ["Art", "MidJorney", "Utility"],
+      "images": ["logo.png", "logo.png"]
+    }
+  }
+]
