@@ -7,7 +7,7 @@
       "description": "CVO or CV Optimizer, is an advanced ChatGPT prompt which will help you create tailored and optimized CVs for specific job roles using commands and flags.",
       "category": "Business",
       "tags": ["Business", "Recruitment"],
-      "images": ["logo.png"]
+      "images": ["logo.svg"]
     }
   },
   {
@@ -18,7 +18,7 @@
       "description": "This is the second ChatGPT prompt.",
       "category": "Technology",
       "tags": ["Art", "MidJorney", "Utility"],
-      "images": ["logo.png", "logo.png"]
+      "images": ["logo.svg", "logo.png"]
     }
   }
 ]

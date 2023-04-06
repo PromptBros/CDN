@@ -71,11 +71,6 @@ async function displayFiles(files) {
     contentContainer.appendChild(description);
 
     await fetchAndDisplayTextFile(file.fileName, contentContainer);
-    if (file.fileName) {
-      const instructionsFilename = file.fileName.replace(".txt", ".md");
-      await fetchAndDisplayMarkdownFile(instructionsFilename, fileItem);
-    }
-
     if (file.content.images) {
       const galleryContainer = document.createElement("div");
       galleryContainer.classList.add("grid", "grid-cols-3", "gap-4", "mb-6");
@@ -87,6 +82,11 @@ async function displayFiles(files) {
         imgElement.classList.add("w-full", "h-auto", "rounded");
         galleryContainer.appendChild(imgElement);
       }
+    }
+
+    if (file.fileName) {
+      const instructionsFilename = file.fileName.replace(".txt", ".md");
+      await fetchAndDisplayMarkdownFile(instructionsFilename, fileItem);
     }
   }
 
