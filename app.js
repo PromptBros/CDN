@@ -55,9 +55,10 @@ function displayFiles(files) {
     fileItem.appendChild(description);
 
     fetchAndDisplayTextFile(file.fileName, fileItem);
-
-    const instructionsFilename = file.file.replace(".txt", ".md");
-    fetchAndDisplayMarkdownFile(instructionsFilename, fileItem);
+    if (file.fileName) {
+      const instructionsFilename = file.fileName.replace(".txt", ".md");
+      fetchAndDisplayMarkdownFile(instructionsFilename, fileItem);
+    }
   });
 
   new ClipboardJS("[data-clipboard-text]");
@@ -72,13 +73,14 @@ function fetchAndDisplayJSON(url) {
       });
 }
 
-function fetchAndDisplayMarkdownFile(filename, fileItem) {
-  fetch(BASE_URL + filename)
+function fetchAndDisplayMarkdownFile(fileName, fileItem) {
+  console.log(BASE_URL + fileName)
+  fetch(BASE_URL + fileName)
     .then((response) => response.text())
     .then((markdown) => {
-      const html = marked(markdown);
+      const html = marked.parse(markdown);
       const instructionsContainer = document.createElement("div");
-      instructionsContainer.classList.add("markdown", "mt-4");
+      instructionsContainer.classList.add("markdown", "mt-3");
       instructionsContainer.innerHTML = html;
       fileItem.appendChild(instructionsContainer);
     })
