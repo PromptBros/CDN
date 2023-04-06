@@ -55,11 +55,13 @@ function displayFiles(files) {
     fileItem.appendChild(description);
 
     fetchAndDisplayTextFile(file.fileName, fileItem);
+
+    const instructionsFilename = file.file.replace(".txt", ".md");
+    fetchAndDisplayMarkdownFile(instructionsFilename, fileItem);
   });
 
   new ClipboardJS("[data-clipboard-text]");
 }
-
 
 function fetchAndDisplayJSON(url) {
   fetch(url)
@@ -68,6 +70,21 @@ function fetchAndDisplayJSON(url) {
       .catch((error) => {
           console.error("Error fetching JSON:", error);
       });
+}
+
+function fetchAndDisplayMarkdownFile(filename, fileItem) {
+  fetch(BASE_URL + filename)
+    .then((response) => response.text())
+    .then((markdown) => {
+      const html = marked(markdown);
+      const instructionsContainer = document.createElement("div");
+      instructionsContainer.classList.add("markdown", "mt-4");
+      instructionsContainer.innerHTML = html;
+      fileItem.appendChild(instructionsContainer);
+    })
+    .catch((error) => {
+      console.error("Error fetching Markdown file:", error);
+    });
 }
 
 document.getElementById("url-input").addEventListener("input", (event) => {

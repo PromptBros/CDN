@@ -4,9 +4,9 @@
       "fileName": "cvo.txt",
       "content": {
         "title": "CVO - ChatGPT CV Optimizer",
-        "description": "This is the first ChatGPT prompt.",
+        "description": "CVO or CV Optimizer, is an advanced ChatGPT prompt which will help you create tailored and optimized CVs for specific job roles using commands and flags.",
         "category": "Business",
-        "tags": ["business", "communication"]
+        "tags": ["Business", "Recruitment"]
       }
     },
     {
@@ -16,7 +16,7 @@
         "title": "The Curator",
         "description": "This is the second ChatGPT prompt.",
         "category": "Technology",
-        "tags": ["technology", "innovation"]
+        "tags": ["Art", "MidJorney", "Utility"]
       }
     }
   ]
