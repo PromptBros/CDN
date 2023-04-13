@@ -1,12 +1,12 @@
-const encodedStr = "ERsBAiBfTF0VBjwIFRBTQFwKQRIbJw0WEEsdPEomIH8dcBEOATUDMUw=";
-const seed = "yourSecretSeed123";
+const BASE_URL = "https://promptbros.github.io/CDN/";
+const seed = "PromtBros 2023";
 const encodedUrlParam = getQueryParam("data");
 
-console.log(encodedUrlParam);
+const dencodedStr = xorDecode(encodedUrlParam, seed);
+const decodeUrl = BASE_URL + dencodedStr;
+const baseUrl = trimFilenameFromUrl(decodeUrl) ;
 
-let BASE_URL = xorDecode(encodedUrlParam, seed);
-
-console.log(BASE_URL);
+console.log(baseUrl);
 
 function getQueryParam(param) {
   const queryString = window.location.search;
@@ -23,9 +23,19 @@ function xorDecode(encodedStr, seed) {
   return result;
 }
 
+function trimFilenameFromUrl(url) {
+  const urlObj = new URL(url);
+  const pathName = urlObj.pathname;
+  const pathArray = pathName.split("/");
+  pathArray.pop();
+  const newPath = pathArray.join("/");
+  const newUrl = urlObj.origin + newPath + "/";
+  return newUrl;
+}
+
 async function fetchAndDisplayTextFile(filename, fileItem) {
   try {
-    const response = await fetch(BASE_URL + filename);
+    const response = await fetch(baseUrl + filename);
     const text = await response.text();
 
     const textareaContainer = document.createElement("div");
@@ -48,7 +58,7 @@ async function fetchAndDisplayTextFile(filename, fileItem) {
 
 async function fetchAndDisplayMarkdownFile(fileName, fileItem) {
   try {
-    const response = await fetch(BASE_URL + fileName);
+    const response = await fetch(baseUrl + fileName);
     const markdown = await response.text();
     const html = marked.parse(markdown);
     const instructionsContainer = document.createElement("div");
@@ -101,7 +111,7 @@ async function displayFiles(files) {
 
       for (const image of file.content.images) {
         const imgElement = document.createElement("img");
-        imgElement.src = BASE_URL + image;
+        imgElement.src = baseUrl + image;
         imgElement.classList.add("w-full", "h-auto", "rounded");
         galleryContainer.appendChild(imgElement);
       }
@@ -127,13 +137,16 @@ async function fetchAndDisplayJSON(url) {
 }
 
 document.getElementById("url-input").addEventListener("input", async (event) => {
-  let url = xorDecode(event.target.value, seed);
+  let encodedUrl = event.target.value;
+  let url = xorDecode(encodedUrl, seed);
 
   if (!url) {
     return;
   }
 
-  await fetchAndDisplayJSON(url);
+  fetchAndDisplayJSON(BASE_URL + url);
+
+  console.log(BASE_URL + url);
   const currentUrl = window.location.href;
   const newUrl = currentUrl.split("?")[0] + "?data=" + encodedUrl;
   history.pushState(null, null, newUrl);
@@ -141,7 +154,7 @@ document.getElementById("url-input").addEventListener("input", async (event) => 
 
 // Load the default template.json file from the provided URL
 if (encodedUrlParam) {
-  await fetchAndDisplayJSON(BASE_URL);
+   fetchAndDisplayJSON(decodeUrl);
 }
 
 

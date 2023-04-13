@@ -1,13 +1,5 @@
-function xorEncode(str, seed) {
-    let result = "";
-    for (let i = 0; i < str.length; i++) {
-      result += String.fromCharCode(str.charCodeAt(i) ^ seed.charCodeAt(i % seed.length));
-    }
-    return btoa(result);
-  }
-  
-  const seed = "yourSecretSeed123";
-  
+
+  const seed = "PromtBros 2023";  
   const encoderForm = document.getElementById("encoder-form");
   const urlInput = document.getElementById("url-input");
   const encodedUrlInput = document.getElementById("encoded-url");
@@ -17,7 +9,7 @@ function xorEncode(str, seed) {
     event.preventDefault();
   
     const url = document.getElementById("url-input").value;
-    const encodedUrl = btoa(url);
+    const encodedUrl = xorEncode(url, seed);
     const result = document.getElementById("encoded-url");
     result.value = encodedUrl;
   
@@ -31,4 +23,12 @@ function xorEncode(str, seed) {
     document.execCommand("copy");
     alert("Encoded URL copied to clipboard!");
   });
+  
+  function xorEncode(str, seed) {
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+      result += String.fromCharCode(str.charCodeAt(i) ^ seed.charCodeAt(i % seed.length));
+    }
+    return btoa(result);
+  }
   
