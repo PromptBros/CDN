@@ -1,0 +1,29 @@
+[
+  {
+    "name": "CVTools",
+    "content": {
+      "title": "CV Tools",
+      "description": "A series of Prompts designed to help candidates improve or fully re-write on demand their CV and write Cover Letters.",
+      "category": "Business",
+      "tags": ["Business", "Recruitment"],
+      "images": [],
+    },
+    "prompts": {
+    	"prompt": {
+    		"text": "CVO - ChatGPT CV Optimizer"
+    		"path": "cvtools/cvo/",
+     		"images": []
+   		 },
+   		 "prompt": {
+    		"text": "CVR - ChatGPT CV Reviewer",
+    		"path": "cvtools/cvr/",
+     		"images": [],
+   		 },
+    	"prompt": {
+    		"text": "CLW - ChatGPT Cover Letter Writer"
+    		"path": "cvtools/clw/",
+     		"images": [],
+   	 	}
+    }
+  }
+]

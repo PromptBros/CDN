@@ -1,4 +1,27 @@
-const BASE_URL = "https://promptbros.github.io/CDN/ChatGPT/";
+const encodedStr = "ERsBAiBfTF0VBjwIFRBTQFwKQRIbJw0WEEsdPEomIH8dcBEOATUDMUw=";
+const seed = "yourSecretSeed123";
+const encodedUrlParam = getQueryParam("data");
+
+console.log(encodedUrlParam);
+
+let BASE_URL = xorDecode(encodedUrlParam, seed);
+
+console.log(BASE_URL);
+
+function getQueryParam(param) {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  return urlParams.get(param);
+}
+
+function xorDecode(encodedStr, seed) {
+  const str = atob(encodedStr); // Decode the base64 encoded string
+  let result = "";
+  for (let i = 0; i < str.length; i++) {
+    result += String.fromCharCode(str.charCodeAt(i) ^ seed.charCodeAt(i % seed.length));
+  }
+  return result;
+}
 
 async function fetchAndDisplayTextFile(filename, fileItem) {
   try {
@@ -104,7 +127,7 @@ async function fetchAndDisplayJSON(url) {
 }
 
 document.getElementById("url-input").addEventListener("input", async (event) => {
-  const url = event.target.value;
+  const url = xorDecode(event.target.value, seed);
 
   if (!url) {
     return;
@@ -114,5 +137,8 @@ document.getElementById("url-input").addEventListener("input", async (event) => 
 });
 
 // Load the default template.json file from the provided URL
-fetchAndDisplayJSON(BASE_URL + "prompt.json");
+if (encodedUrlParam) {
+  fetchAndDisplayJSON(BASE_URL + "prompt.json");
+}
+
 
