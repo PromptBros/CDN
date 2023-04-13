@@ -127,18 +127,21 @@ async function fetchAndDisplayJSON(url) {
 }
 
 document.getElementById("url-input").addEventListener("input", async (event) => {
-  const url = xorDecode(event.target.value, seed);
+  let url = xorDecode(event.target.value, seed);
 
   if (!url) {
     return;
   }
 
   await fetchAndDisplayJSON(url);
+  const currentUrl = window.location.href;
+  const newUrl = currentUrl.split("?")[0] + "?data=" + encodedUrl;
+  history.pushState(null, null, newUrl);
 });
 
 // Load the default template.json file from the provided URL
 if (encodedUrlParam) {
-  fetchAndDisplayJSON(BASE_URL + "prompt.json");
+  await fetchAndDisplayJSON(BASE_URL);
 }
 
 
