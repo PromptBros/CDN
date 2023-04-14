@@ -1,9 +1,9 @@
 [
   {
-    "name": "curator",
-    "fileName": "curator.txt",
+    "name": "s351post",
+    "fileName": "s351_post_writer.txt",
     "content": {
-      "title": "The Curator - ChatGPT acts as a Visual Arts expert",
+      "title": "Science 351 Post Writer",
       "description": "For exclusive use of PromptBros staff.",
       "category": "Internal",
       "tags": [

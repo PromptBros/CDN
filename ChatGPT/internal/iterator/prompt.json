@@ -1,23 +1,16 @@
 [
   {
-    "name": "CLW",
-    "fileName": "clw.txt",
+    "name": "iterator",
+    "fileName": "iterator.txt",
     "content": {
-      "title": "CLW - ChatGPT Cover Letter Writter",
-      "description": "CLW or Cover Letter Writter, is an advanced ChatGPT prompt which will help you create tailored and optimized Cover Letters for application tospecific job roles using commands and flags.",
-      "category": "Business",
-      "tags": ["Business", "Recruitment"],
-      "images": []
-    }
-  },
-  {
-    "name": "CLWT",
-    "fileName": "template.txt",
-    "content": {
-      "title": "Template to enter data",
-      "description": "This template is used to enter your data for the CV and JD",
-      "category": "Business",
-      "tags": ["Business", "Recruitment"],
+      "title": "Prompt Iterator - A ChatGPT prompt inception prompt.",
+      "description": "An iterative aproach to building prompts using ChatGPT in a guided mode. For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
       "images": []
     }
   }

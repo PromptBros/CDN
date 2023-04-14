@@ -16,21 +16,21 @@
     "prompts": [
       {
         "text": "CVO - ChatGPT CV Optimizer",
-        "path": "prompt/?data=fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM=",
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM=",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
       },
       {
         "text": "CVR - ChatGPT CV Reviewer",
-        "path": "prompt/?data=fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM=",
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM=",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
       },
       {
         "text": "CLW - ChatGPT Cover Letter Writer",
-        "path": "prompt/?data=fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM=",
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM=",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
@@ -42,10 +42,11 @@
     "content": {
       "title": "PB internal prompts",
       "description": "For exclusive use of PromptBros staff.",
-      "category": "Technology",
+      "category": "Internal",
       "tags": [
         "Utility",
-        "limited use"
+        "Limited use",
+        "Internal"
       ],
       "images": [
         "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
@@ -54,19 +55,32 @@
     "prompts": [
       {
         "text": "Prompt Iterator",
-        "path": "cvtools/cvo/",
-        "images": []
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcSVxEV0E+EwNCHTYXHRJUXUIdQyIdAh0AbBgcHE4=",
+        "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
       },
       {
         "text": "MidJourney Prompter",
-        "path": "cvtools/cvr/",
-        "images": []
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcSVxEV0E+EwNCGSgCHRxNQkRXQX8CHQIZMgZBGVNdXg==",
+        "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
       },
       {
         "text": "Visual Arts Curator",
-        "path": "cvtools/clw/",
-        "images": []
-      }
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcSVxEV0E+EwNCFzcADgdPQB9CQT8fHxlaKAEAHQ==",
+        "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
+      },
+      {
+        "text": "Science 351 Post writer",
+        "path": "/prompt/?prompt-id=fzEHDAAFIjtcSVxEV0E+EwNCB3FHXgNPQUQdQyIdAh0AbBgcHE4=",
+        "images": [
+          "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
+        }
     ]
   }
 ]

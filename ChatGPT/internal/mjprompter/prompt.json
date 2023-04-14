@@ -1,23 +1,61 @@
 [
   {
-    "name": "CLW",
-    "fileName": "clw.txt",
+    "name": "Intro",
+    "fileName": "intro.txt",
     "content": {
-      "title": "CLW - ChatGPT Cover Letter Writter",
-      "description": "CLW or Cover Letter Writter, is an advanced ChatGPT prompt which will help you create tailored and optimized Cover Letters for application tospecific job roles using commands and flags.",
-      "category": "Business",
-      "tags": ["Business", "Recruitment"],
+      "title": "Start the process",
+      "description": "For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
       "images": []
     }
   },
   {
-    "name": "CLWT",
-    "fileName": "template.txt",
+    "name": "MidJourney Manual",
+    "fileName": "mj.txt",
     "content": {
-      "title": "Template to enter data",
-      "description": "This template is used to enter your data for the CV and JD",
-      "category": "Business",
-      "tags": ["Business", "Recruitment"],
+      "title": "MidJourney Manual",
+      "description": "For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
+      "images": []
+    }
+  },
+  {
+    "name": "example1",
+    "fileName": "example1.txt",
+    "content": {
+      "title": "Photographic examples",
+      "description": "For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
+      "images": []
+    }
+  },
+  {
+    "name": "example2",
+    "fileName": "example2.txt",
+    "content": {
+      "title": "art examples",
+      "description": "For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
       "images": []
     }
   }
