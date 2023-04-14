@@ -74,15 +74,21 @@
 
 
     <div class="container mx-auto px-4 py-16">
-
-        <h1 class="text-white text-2xl font-bold mb-6">Home page</h1>
-      
-
+      <div class="p-12">
+        <h1 class="text-white text-2xl font-bold mb-6">Collections Hall</h1>
+        <label for="url-input" class="block text-sm text-white font-semibold mb-2">Please, enter your access code:</label>
+        <input type="url" id="url-input" class="w-full p-2 border mb-6" placeholder="Enter your Prompt access code here"
+          value="">
+      </div>
       <div class="bg-white p-12 rounded-lg shadow-md">
-        <div id="file-list" class="space-y-6"></div>
+        <div id="group-list" class="grid grid-cols-1 gap-8"></div>
       </div>
     </div>
   </div>
+  <script src="assets/js/plp.js"></script>
+
+  
+
 </body>
 
 </html>
