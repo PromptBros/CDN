@@ -1,0 +1,24 @@
+[
+  {
+    "name": "CLW",
+    "fileName": "clw.txt",
+    "content": {
+      "title": "CLW - ChatGPT Cover Letter Writter",
+      "description": "CLW or Cover Letter Writter, is an advanced ChatGPT prompt which will help you create tailored and optimized Cover Letters for application tospecific job roles using commands and flags.",
+      "category": "Business",
+      "tags": ["Business", "Recruitment"],
+      "images": []
+    }
+  },
+  {
+    "name": "CLWT",
+    "fileName": "template.txt",
+    "content": {
+      "title": "Template to enter data",
+      "description": "This template is used to enter your data for the CV and JD",
+      "category": "Business",
+      "tags": ["Business", "Recruitment"],
+      "images": []
+    }
+  }
+]

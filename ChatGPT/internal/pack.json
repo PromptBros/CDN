@@ -10,7 +10,7 @@
 		  "limited use"
 		],
 		"images": [
-		  "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+		  "https://promptbros.github.io/CDN/assets/img/openai_logo.svg"
 		]
 	  },
 	  "prompts": [
@@ -18,21 +18,21 @@
 		  "text": "Prompt Iterator",
 		  "path": "cvtools/cvo/",
 		  "images": [
-			""
+			"https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
 		  ]
 		},
 		{
 		  "text": "MidJourney Prompter",
 		  "path": "cvtools/cvr/",
 		  "images": [
-			""
+			"https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
 		  ]
 		},
 		{
 		  "text": "Visual Arts Curator",
 		  "path": "cvtools/clw/",
 		  "images": [
-			""
+			"https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
 		  ]
 		}
 	  ]
