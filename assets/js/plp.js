@@ -5,7 +5,7 @@ const encodedUrlParam = getQueryParam("data");
 const decodedStr = xorDecode(encodedUrlParam, SEED);
 const baseJson = BASE_URL + decodedStr;
 let baseUrl = trimFilenameFromUrl(baseJson);
-console.log("dec:", baseJson)
+
 function getQueryParam(param) {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
@@ -94,6 +94,8 @@ function displayGroups(groups) {
 }
 
 async function fetchAndDisplayJSON(jsonUrl) {
+  console.log("json:", jsonUrl)
+
   try {
     const response = await fetch(jsonUrl);
     const files = await response.json();
