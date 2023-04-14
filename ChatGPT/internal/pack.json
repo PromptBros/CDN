@@ -17,17 +17,17 @@
 			{
 				"text": "Prompt Iterator",
 				"path": "cvtools/cvo/",
-				"images": []
+				"images": [""]
 			},
 			{
 				"text": "MidJourney Prompter",
 				"path": "cvtools/cvr/",
-				"images": []
+				"images": [""]
 			},
 			{
 				"text": "Visual Arts Curator",
 				"path": "cvtools/clw/",
-				"images": []
+				"images": [""]
 			}
 		]
 	}
