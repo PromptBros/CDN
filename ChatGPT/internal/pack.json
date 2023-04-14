@@ -1,34 +1,41 @@
 [
 	{
-		"name": "Internal",
-		"content": {
-			"title": "PB internal prompts",
-			"description": "For exclusive use of PromptBros staff.",
-			"category": "Technology",
-			"tags": [
-				"Utility",
-				"limited use"
-			],
-			"images": [
-				"https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
-			]
-		},
-		"prompts": [
-			{
-				"text": "Prompt Iterator",
-				"path": "cvtools/cvo/",
-				"images": [""]
-			},
-			{
-				"text": "MidJourney Prompter",
-				"path": "cvtools/cvr/",
-				"images": [""]
-			},
-			{
-				"text": "Visual Arts Curator",
-				"path": "cvtools/clw/",
-				"images": [""]
-			}
+	  "name": "Internal",
+	  "content": {
+		"title": "PB internal prompts",
+		"description": "For exclusive use of PromptBros staff.",
+		"category": "Technology",
+		"tags": [
+		  "Utility",
+		  "limited use"
+		],
+		"images": [
+		  "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
 		]
+	  },
+	  "prompts": [
+		{
+		  "text": "Prompt Iterator",
+		  "path": "cvtools/cvo/",
+		  "images": [
+			""
+		  ]
+		},
+		{
+		  "text": "MidJourney Prompter",
+		  "path": "cvtools/cvr/",
+		  "images": [
+			""
+		  ]
+		},
+		{
+		  "text": "Visual Arts Curator",
+		  "path": "cvtools/clw/",
+		  "images": [
+			""
+		  ]
+		}
+	  ]
 	}
-]
+  ]
+  
