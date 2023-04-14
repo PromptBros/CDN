@@ -13,22 +13,22 @@
 				"https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
 			]
 		},
-		"prompts": {
-			"prompt": {
+		"prompts": [
+			{
 				"text": "Prompt Iterator",
 				"path": "cvtools/cvo/",
 				"images": []
 			},
-			"prompt": {
+			{
 				"text": "MidJourney Prompter",
 				"path": "cvtools/cvr/",
 				"images": []
 			},
-			"prompt": {
+			{
 				"text": "Visual Arts Curator",
 				"path": "cvtools/clw/",
 				"images": []
 			}
-		}
+		]
 	}
 ]
