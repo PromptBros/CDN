@@ -6,23 +6,23 @@
       "description": "A series of Prompts designed to help candidates improve or fully re-write on demand their CV and write Cover Letters.",
       "category": "Business",
       "tags": ["Business", "Recruitment"],
-      "images": []
+      "images": ["https://promptbros.github.io/CDN/ChatGPT/openai_logo.svg"]
     },
     "prompts": [
       {
         "text": "CVO - ChatGPT CV Optimizer",
         "path": "prompt/?data=fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM=",
-        "images": []
+        "images": ["https://promptbros.github.io/CDN/ChatGPT/chat_gpt_logo.png"]
       },
       {
         "text": "CVR - ChatGPT CV Reviewer",
         "path": "prompt/?data=fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM=",
-        "images": []
+        "images": ["https://promptbros.github.io/CDN/ChatGPT/chat_gpt_logo.png"]
       },
       {
         "text": "CLW - ChatGPT Cover Letter Writer",
         "path": "prompt/?data=fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM=",
-        "images": []
+        "images": ["https://promptbros.github.io/CDN/ChatGPT/chat_gpt_logo.png"]
       }
     ]
   }
