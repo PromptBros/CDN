@@ -1,6 +1,6 @@
 const BASE_URL = "https://promptbros.github.io/CDN";
 const SEED = "PromtBros 2023";
-const encodedUrlParam = getQueryParam("data");
+const encodedUrlParam = getQueryParam("prompt-id");
 
 const decodedStr = xorDecode(encodedUrlParam, SEED);
 const baseJson = BASE_URL + decodedStr;
@@ -162,7 +162,7 @@ document.getElementById("url-input").addEventListener("input", async (event) => 
   fetchAndDisplayJSON(BASE_URL + url);
 
   const currentUrl = window.location.href;
-  const newUrl = currentUrl.split("?")[0] + "?data=" + encodedUrl;
+  const newUrl = currentUrl.split("?")[0] + "?prompt-id=" + encodedUrl;
   history.pushState(null, null, newUrl);
 });
 

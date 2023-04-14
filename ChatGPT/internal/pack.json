@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Internal",
+		"content": {
+			"title": "PB internal prompts",
+			"description": "For exclusive use of PromptBros staff.",
+			"category": "Technology",
+			"tags": [
+				"Utility",
+				"limited use"
+			],
+			"images": [
+				"https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+			]
+		},
+		"prompts": {
+			"prompt": {
+				"text": "Prompt Iterator",
+				"path": "cvtools/cvo/",
+				"images": []
+			},
+			"prompt": {
+				"text": "MidJourney Prompter",
+				"path": "cvtools/cvr/",
+				"images": []
+			},
+			"prompt": {
+				"text": "Visual Arts Curator",
+				"path": "cvtools/clw/",
+				"images": []
+			}
+		}
+	}
+]
