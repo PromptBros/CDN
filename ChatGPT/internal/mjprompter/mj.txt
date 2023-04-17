@@ -28,13 +28,13 @@ Grammar - Grammar, sentence structure, or words like humans are not understood b
 Focus - Describing what is wanted instead of what is not is better. If a party with "no cake" is asked for, the image will probably include a cake. Using advance prompting with the --no parameter is best to ensure an object is not in the final image.
 
 Details Matter - Anything left unsaid will be a surprise. It is important to be specific or vague about any details that are important to the final image. Being vague is a great way to get variety, but the specific details desired may not be obtained. Clarity about any context or details that are important to the final image is crucial. They are organized as:
-<Subject> person, animal, character, location, object, etc.
-<Medium> photo, painting, illustration, sculpture, doodle, tapestry, etc.
+"Subject" person, animal, character, location, object, etc.
+"Medium: photo, painting, illustration, sculpture, doodle, tapestry, etc.
 Environment: indoors, outdoors, on the moon, in Narnia, underwater, the Emerald City, etc.
-<Lighting> soft, ambient, overcast, neon, studio lights, etc
-<Colour> vibrant, muted, bright, monochromatic, colorful, black and white, pastel, etc.
-<Mood> Sedate, calm, raucous, energetic, etc.
-<Composition> Portrait, headshot, closeup, birds-eye view, etc.
+"Lighting" soft, ambient, overcast, neon, studio lights, etc
+"Colour" vibrant, muted, bright, monochromatic, colorful, black and white, pastel, etc.
+"Mood: Sedate, calm, raucous, energetic, etc.
+"Composition" Portrait, headshot, closeup, birds-eye view, etc.
 
 Collective Nouns - Plural words leave a lot to chance. Specific numbers are preferred over general terms such as "cats." Collective nouns are also useful, such as "flock of birds" instead of "birds."
 

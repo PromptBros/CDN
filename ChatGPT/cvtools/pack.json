@@ -1,6 +1,7 @@
 [
-  {
+{
     "name": "CVTools",
+    "id": "fzEHDAAFIjtcQ0REXVw8AUAdFSEZQRlTXV40",
     "content": {
       "title": "CV Tools",
       "description": "A series of Prompts designed to help candidates improve or fully re-write on demand their CV and write Cover Letters.",
@@ -16,21 +17,21 @@
     "prompts": [
       {
         "text": "CVO - ChatGPT CV Optimizer",
-        "path": "prompt/?prompt-id=fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM=",
+        "id": "fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM%3D",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
       },
       {
         "text": "CVR - ChatGPT CV Reviewer",
-        "path": "prompt/?prompt-id=fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM=",
+        "id": "fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM%3D",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
       },
       {
         "text": "CLW - ChatGPT Cover Letter Writer",
-        "path": "prompt/?prompt-id=fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM=",
+        "id": "fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM%3D",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
