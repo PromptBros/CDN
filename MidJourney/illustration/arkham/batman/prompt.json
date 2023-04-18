@@ -1,7 +1,7 @@
 [
   {
     "name": "batman",
-    "id" : "",
+    "id" : "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIWIwYCEk4dQEBcPQIbQx4xHQE%3D",
     "fileName": "batman.txt",
     "brand" : "",
     "model" : "MidJorney V4",
@@ -10,7 +10,7 @@
       "description": "Close up portrait of the face of The Catwoman in Arkham Asylum. Rendered in a stunning fusion of painting and illustration techniques",
       "category": "MidJorney",
       "tags": [
-        "--seed 2086533",
+        "--seed 985731805",
         "--chaos 20",
         "--style 50"
       ],
