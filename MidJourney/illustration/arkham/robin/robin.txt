@@ -1,0 +1,11 @@
+Close up portrait of the face of Robin in Arkham Asylum. ::5 
+
+Rendered in a stunning fusion of painting and illustration techniques, Robin looks both fearful and enraged. With a clenched jaw and eyes full of retribution, pitch black background. ::4 
+
+Illustrated in mix of bright, acrylics, watercolours, ink splatters, to create dynamic textured images that capture the psychological intensity and darkness of Batman's sidekick. ::3 
+
+The composition pushes the boundaries of the graphic novel form, distorted perspectives, jagged, expressionistic lines creates a sense of unease and disorientation, emphasizing the mental instability of the characters and the disordered reality of the asylum setting. 
+
+--no bad anatomy, bad hands, text, mockup, missing fingers, additional fingers, extra digits, fewer digits, cropped, worst quality, low quality, jpeg artefacts, signature, watermark, username, blurry 
+
+--s 50 --c 20 --q 2 --ar 9:16 --v 4 --seed 985731805

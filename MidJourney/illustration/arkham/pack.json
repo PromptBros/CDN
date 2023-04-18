@@ -1,0 +1,27 @@
+[
+{
+    "name": "arkham",
+    "id": "",
+    "content": {
+      "title": "Arkham Asylum",
+      "description": "A series of Prompts designed to help candidates improve or fully re-write on demand their CV and write Cover Letters.",
+      "category": "Business",
+      "tags": [
+        "Business",
+        "Recruitment"
+      ],
+      "images": [
+        "https://promptbros.github.io/CDN/assets/img/openai_logo.svg"
+      ]
+    },
+    "prompts": [
+       {
+        "text": "",
+        "id": "",
+        "images": [
+          "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
+        ]
+      }
+    ]
+  }
+]

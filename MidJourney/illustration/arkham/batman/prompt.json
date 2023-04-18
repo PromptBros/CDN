@@ -1,0 +1,20 @@
+[
+  {
+    "name": "batman",
+    "id" : "",
+    "fileName": "batman.txt",
+    "brand" : "",
+    "model" : "MidJorney V4",
+    "content": {
+      "title": "Batman in Arkham Asylum",
+      "description": "Close up portrait of the face of The Catwoman in Arkham Asylum. Rendered in a stunning fusion of painting and illustration techniques",
+      "category": "MidJorney",
+      "tags": [
+        "--seed 2086533",
+        "--chaos 20",
+        "--style 50"
+      ],
+      "images": ["Prompt_Bros_Close_up_portrait_of_the_face_of_the_Batman_in_Arkh_1767d51e-5a5f-4817-bf37-84d620d81a6d.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_the_Batman_in_Arkh_11f15ea8-1358-43a8-91d1-0b4025d88489.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_the_Batman_in_Arkh_0890f71f-0a1e-4006-a408-262b459634d6.png"]
+    }
+  }
+]

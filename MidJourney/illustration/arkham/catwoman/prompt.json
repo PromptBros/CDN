@@ -1,0 +1,20 @@
+[
+  {
+    "name": "template",
+    "id" : "",
+    "fileName": "template.txt",
+    "brand" : "",
+    "model" : "MidJorney V5",
+    "content": {
+      "title": "MidJourney Template",
+      "description": "A template folder to be used creating prompt folders",
+      "category": "MidJorney",
+      "tags": [
+        "--seed ",
+        "--chaos ",
+        "--style"
+      ],
+      "images": []
+    }
+  }
+]
