@@ -2,7 +2,7 @@
 
 The CV Optimizer is designed to enhance your existing CV based on provided information, best practices, and the job description for the role you are applying to. The tool uses commands and flags to generate an optimized CV that caters to your target job's requirements and aligns with industry standards. It can be used repeateadly, so you can generate a custom tailored CV for every new job application.
 
-**IMPORTANT!:** Please note that due to the non-deterministic nature of the ChatGPT, results may vary each time you use the tool. This variation is a result of the AI's dynamic approach to understanding and processing language. To ensure the best possible outcome, we recommend engaging in a guided conversation with the tool and providing clear and concise information about your requirements. By doing so, you can help the ChatGPT better understand your needs, leading to a more accurate and effective output. Additionally, don't hesitate to iterate on the process and fine-tune the flags and inputs as needed to achieve an optimized CV that truly meets your expectations.
+**IMPORTANT!:** Please note that due to the non-deterministic nature of the ChatGPT, results may vary each time you use the tool. This variation is a result of the AI's dynamic approach to understanding and processing language. To ensure the best possible outcome, we recommend engaging in a guided conversation with the tool and providing clear and concise information about your requirements. By doing so, you can help the AI model better understand your needs, leading to a more accurate and effective output. Additionally, don't hesitate to iterate on the process and fine-tune the flags and inputs as needed to achieve an optimized CV that truly meets your expectations.
 
 ### Commands
 
@@ -33,6 +33,6 @@ After completing the process, the tool will produce and display the "Output CV" 
 ### Troubleshoot
 
 - If ChatGPT stops generating the "Output CV" just write `Continue` and enter for it to contiue from where it left off. This is a limitation of ChatGPT's Ui.
-- We recommend usign ChatGPT-4 for better results.
+- We recommend usign GPT-4 for better results.
 
 

@@ -16,21 +16,21 @@
     },
     "prompts": [
       {
-        "text": "CVO - ChatGPT CV Optimizer",
+        "text": "CV Optimizer",
         "id": "fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM%3D",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
       },
       {
-        "text": "CVR - ChatGPT CV Reviewer",
+        "text": "CV Reviewer",
         "id": "fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM%3D",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
         ]
       },
       {
-        "text": "CLW - ChatGPT Cover Letter Writer",
+        "text": "Cover Letter Writer",
         "id": "fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM%3D",
         "images": [
           "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"

@@ -1,12 +1,15 @@
 [
   {
     "name": "CVO",
+    "id" : "fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM%3D",
     "fileName": "cvo.txt",
+    "brand" : "https://promptbros.github.io/CDN/assets/img/gpt4_logo.svg",
+    "model" : "GPT 4",
     "content": {
       "title": "CVO - ChatGPT CV Optimizer",
-      "description": "CVO or CV Optimizer, is an advanced ChatGPT prompt which will help you create tailored and optimized CVs for specific job roles using commands and flags.",
+      "description": "CVO or CV Optimizer, is an advanced ChatGPT prompt which will help you create tailored and optimized CVs for specific job roles using commands and flags",
       "category": "Business",
-      "tags": ["Business", "Recruitment"],
+      "tags": ["--s", "--3", "--sum"],
       "images": []
     }
   }
