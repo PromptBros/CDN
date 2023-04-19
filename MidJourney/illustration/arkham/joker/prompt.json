@@ -1,20 +1,22 @@
 [
   {
-    "name": "template",
-    "id" : "",
-    "fileName": "template.txt",
+    "name": "joker",
+    "id" : "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIeLRkKAQ9CQl1eIAZBBwctHA%3D%3D",
+    "fileName": "joker.txt",
     "brand" : "",
-    "model" : "MidJorney V5",
+    "model" : "MidJorney V4",
     "content": {
-      "title": "MidJourney Template",
-      "description": "A template folder to be used creating prompt folders",
+      "title": "The Joker in Arkham Asylum",
+      "description": "Close up portrait of the face of the Joker in Arkham Asylum, rendered in a stunning fusion of painting and illustration techniques",
       "category": "MidJorney",
       "tags": [
-        "--seed ",
-        "--chaos ",
-        "--style"
+        "--ar 9:16",
+        "--seed 111",
+        "--chaos 20",
+        "--style 50"
       ],
-      "images": []
+      "images": ["Prompt_Bros_Close_up_portrait_of_the_face_of_the_Joker_in_Arkha_85e98379-7a1f-43c9-91bb-f361bc879644.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_the_Joker_in_Arkha_c6660aff-8475-41c3-bf33-d2523b088587.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_the_Joker_in_Arkha_59bcfbf2-e59d-4771-95a3-12e4c7bf5678.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_the_Joker_in_Arkha_b311f0ee-9704-4d86-9359-d2f20eca05b2.png"
+      ]
     }
   }
 ]
