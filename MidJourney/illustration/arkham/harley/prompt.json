@@ -13,7 +13,7 @@
         "--ar 9:16",
         "--seed 1997632",
         "--chaos 20",
-        "--style 50"
+        "--stylize 50"
       ],
       "images": ["Prompt_Bros_Close_up_portrait_of_the_face_of_Harley_Quinn_in_Ar_121c770a-85aa-4c95-bfd9-661011d9eb5b.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Harley_Quinn_in_Ar_25b828fd-ad1d-4353-84a2-0dc8442b9217.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Harley_Quinn_in_Ar_373ccbfb-e87d-4315-ae14-53a0f7551c24.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Harley_Quinn_in_Ar_77e55964-e8db-4f90-b65c-7aca73ee03e8.png"
       ]

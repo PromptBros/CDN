@@ -72,13 +72,13 @@ Parameters are always added to the end of a prompt. You can add multiple paramet
 
 Aspect Ratios --aspect, or --ar Change the aspect ratio of a generation.
 
-Chaos --chaos <number 0–100> Change how varied the results will be. Higher values produce more unusual and unexpected generations.
+Chaos --chaos "number 0–100" Change how varied the results will be. Higher values produce more unusual and unexpected generations.
 
 No --no Negative prompting,” --no plants” would try to remove plants from the image.
 
-Quality --quality <.25, .5, 1, or 2>, or --q <.25, .5, 1, or 2> How much rendering quality time you want to spend. The default value is 1. Higher values cost more and lower values cost less.
+Quality --quality ".25, .5, 1, or 2", or --q ".25, .5, 1, or 2" How much rendering quality time you want to spend. The default value is 1. Higher values cost more and lower values cost less.
 
-Stylize --stylize <number>, or --s <number> parameter influences how strongly Midjourney's default aesthetic style is applied to Jobs.
+Stylize --stylize "number, or --s "number" parameter influences how strongly Midjourney's default aesthetic style is applied to Jobs.
 
 
 - But wait, I have more info. Just acknowledge with READ

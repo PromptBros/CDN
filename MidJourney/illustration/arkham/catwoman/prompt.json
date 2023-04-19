@@ -13,7 +13,7 @@
         "--ar 9:16",
         "--seed 2086533",
         "--chaos 20",
-        "--style 50"
+        "--stylize 50"
       ],
       "images": ["Prompt_Bros_Close_up_portrait_of_the_face_of_The_Catwoman_in_Ar_c3c25595-2722-45cd-8510-9ef45c3c93f6.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Cat_Woman_in_Arkha_c3518eac-9d52-4e66-b32d-ea6f23f02224.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_The_Catwoman_in_Ar_6abd286c-780c-4587-a636-4b2d94fb9ccf.png"
       ]

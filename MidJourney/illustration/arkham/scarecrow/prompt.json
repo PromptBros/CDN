@@ -13,7 +13,7 @@
         "--ar 9:16",
         "--seed 0491114",
         "--chaos 20",
-        "--style 50"
+        "--stylize 50"
       ],
       "images": ["Prompt_Bros_Close_up_portrait_of_the_face_of_The_Scarecrow_in_A_48cbbfc3-5406-459a-8e0f-7518e2ae70e4.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_The_Scarecrow_in_A_0f825368-e6d3-453d-b07c-998a59d69b40.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_The_Scarecrow_in_A_d8365a1a-5d6d-4bd7-84cd-e854b2cc8164.png"
       ]

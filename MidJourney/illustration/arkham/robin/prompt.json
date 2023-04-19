@@ -13,7 +13,7 @@
         "--ar 9:16",
         "--seed 985731805",
         "--chaos 20",
-        "--style 50"
+        "--stylize 50"
       ],
       "images": ["Prompt_Bros_Close_up_portrait_of_the_face_of_Robin_in_Arkham_As_b898a45e-326e-4fb4-9cf8-c5b059b15703.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Robin_in_Arkham_As_1473b6f8-4c4b-4022-a6d4-0b0ca4636f46.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Robin_in_Arkham_As_54d26ca2-e2b6-4235-a12d-f29178ff18e8.png", "Prompt_Bros_Close_up_portrait_of_the_face_of_Robin_in_Arkham_As_23cbcf06-3cb8-414f-9e8c-67cc6aa0db67.png"
       ]
