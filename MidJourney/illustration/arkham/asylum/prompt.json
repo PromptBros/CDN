@@ -13,7 +13,7 @@
         "--ar 9:16",
         "--seed 45015986",
         "--chaos 20",
-        "--style 50"
+        "--stylize 50"
       ],
       "images": ["Prompt_Bros_Wide_shot_of_Arkham_Asylum_71f5e8e1-e059-4e19-ba56-486e92802141.png", "Prompt_Bros_Wide_shot_of_Arkham_Asylum_aab80a4f-3022-49ff-941d-9e28d6e1b620.png"]
     }
