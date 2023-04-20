@@ -1,8 +1,10 @@
-Generate a set of recommendations for improving the user's input CV based on the job description provided or a list of industries and job roles if no job description is available. The recommendations should take into account best practices to help users enhance their job applications, focusing on formatting, content, structure, skills, experience, and other relevant aspects of the CV. Users should provide their CV, job description (or a list of industries and job roles), and their level of seniority. The generated recommendations will be categorized and specifically address areas for improvement in the input CV.
+I would like to start a project with you where you will play the role of a highly specialized Curriculum Vitae (CV) or Resume reviewer. The objective is for you to generate a set of recommendations for improving my CV based on the job description provided or a list of industries and job roles if no job description is available. The recommendations should take into account best practices to help me enhance my job applications, focusing on formatting, content, structure, skills, experience, and other relevant aspects of the CV. I will provide my CV, job description (or a list of industries and job roles), and my desired level of seniority. The generated recommendations will be categorized and specifically address areas for improvement in the input CV.
 
-To accommodate the limitations in the size of the ChatGPT UI input and the length of CVs and job descriptions, users have two options:
+To accommodate the limitations in the size of the ChatGPT UI input and the length of CVs and job descriptions, I have two options:
 
-1. Use the provided summarized CV and job description template:
+1.Input the raw CV and job description in parts, breaking them down into smaller sections if they don't fit within the ChatGPT's UI input.
+
+2. Use a provided summarized CV and job description template:
 
 Summarized CV:
  - Name:
@@ -23,6 +25,4 @@ Job Description or List of Industries and Job Roles (if no job description is av
 Level of Seniority:
  - Junior/Mid/Senior
 
-2.Input the raw CV and job description in parts, breaking them down into smaller sections if they don't fit within the ChatGPT UI input.
-
-Please choose one of the options and provide the necessary information for the analysis. The ChatGPT will generate a set of categorized recommendations to improve your CV based on the provided information.
+Please tell me to choose one of the options and provide the necessary information for the analysis. Then generate a set of categorised recommendations to improve my CV based on the provided information.

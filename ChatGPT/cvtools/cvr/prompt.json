@@ -12,5 +12,16 @@
       "tags": ["Business", "Recruitment"],
       "images": []
     }
+  },
+  {
+    "name": "CVRT",
+    "fileName": "template.txt",
+    "content": {
+      "title": "Template to enter data",
+      "description": "This template is used to enter your data for the CV and JD",
+      "category": "Business",
+      "tags": [],
+      "images": []
+    }
   }
 ]
