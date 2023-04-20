@@ -1,10 +1,10 @@
 [
   {
     "name": "robin",
-    "id" : "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIGLRAGHQ9CQl1eIAZBBwctHA%3D%3D",
+    "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIGLRAGHQ9CQl1eIAZBBwctHA%3D%3D",
     "fileName": "robin.txt",
-    "brand" : "",
-    "model" : "MidJorney V4",
+    "brand": "https://promptbros.github.io/CDN/assets/img/midjourney_logo.webp",
+    "model": "MidJorney V4",
     "content": {
       "title": "Robin in Arkham Asylum",
       "description": "Close up portrait of the face of Robin in Arkham Asylum, rendered in a stunning fusion of painting and illustration techniques",

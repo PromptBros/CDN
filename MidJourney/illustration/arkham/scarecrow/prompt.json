@@ -1,10 +1,10 @@
 [
   {
     "name": "scarecrow",
-    "id" : "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIHIRMdFkNAX0UcIAAAAAQ2XAUAT1w%3D",
+    "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIHIRMdFkNAX0UcIAAAAAQ2XAUAT1w%3D",
     "fileName": "scarecrow.txt",
-    "brand" : "",
-    "model" : "MidJorney V4",
+    "brand": "https://promptbros.github.io/CDN/assets/img/midjourney_logo.webp",
+    "model": "MidJorney V4",
     "content": {
       "title": "The Scarecrow in Arkham Asylum",
       "description": "Close up portrait of the face of The Scarecrow in Arkham Asylum, rendered in a stunning fusion of painting and illustration techniques",
