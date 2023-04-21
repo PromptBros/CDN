@@ -1,0 +1,20 @@
+[
+  {
+    "name": "sample",
+    "id" : "",
+    "fileName": "sample.txt",
+    "brand" : "https://promptbros.github.io/CDN/assets/img/midjourney_logo.webp",
+    "model" : "MidJorney V5",
+    "content": {
+      "title": "MidJourney Template",
+      "description": "A template folder to be used creating prompt folders",
+      "category": "MidJorney",
+      "tags": [
+        "--seed ",
+        "--chaos ",
+        "--style"
+      ],
+      "images": []
+    }
+  }
+]
