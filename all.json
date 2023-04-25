@@ -14,30 +14,6 @@
         "https://promptbros.github.io/CDN/assets/img/openai_logo.svg"
       ]
     },
-    "prompts": [
-      {
-        "text": "CV Optimizer",
-        "id": "fzEHDAAFIjtcQ0REXVw8AUAOAi1dHwFPX0BGHToBAAM%3D",
-        "images": [
-          "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
-        ]
-      },
-      {
-        "text": "CV Reviewer",
-        "id": "fzEHDAAFIjtcQ0REXVw8AUAOAjBdHwFPX0BGHToBAAM%3D",
-        "images": [
-          "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
-        ]
-      },
-      {
-        "text": "Cover Letter Writer",
-        "id": "fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM%3D",
-        "images": [
-          "https://promptbros.github.io/CDN/assets/img/chat_gpt.png"
-        ]
-      }
-    ]
-  },
   {
     "name": "arkham",
     "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIEIxEEXUpBX1w%3D",
@@ -54,51 +30,6 @@
         "https://promptbros.github.io/CDN/MidJourney/illustration/arkham/asylum/images/Prompt_Bros_Wide_shot_of_Arkham_Asylum_aab80a4f-3022-49ff-941d-9e28d6e1b620.png"
       ]
     },
-    "prompts": [
-        {
-        "text": "Joker",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIeLRkKAQ9CQl1eIAZBBwctHA%3D%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/joker/images/Prompt_Bros_Close_up_portrait_of_the_face_of_the_Joker_in_Arkha_85e98379-7a1f-43c9-91bb-f361bc879644.png"
-        ]
-      },
-       {
-        "text": "Batman",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIWIwYCEk4dQEBcPQIbQx4xHQE%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/batman/images/Prompt_Bros_Close_up_portrait_of_the_face_of_the_Batman_in_Arkh_1767d51e-5a5f-4817-bf37-84d620d81a6d.png"
-        ]
-      },
-      {
-        "text": "Harley Quinn",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIcIwADFlkdQEBcPQIbQx4xHQE%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/harley/images/Prompt_Bros_Close_up_portrait_of_the_face_of_Harley_Quinn_in_Ar_121c770a-85aa-4c95-bfd9-661011d9eb5b.png"
-        ]
-      },
-      {
-        "text": "Robin",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIGLRAGHQ9CQl1eIAZBBwctHA%3D%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/robin/images/Prompt_Bros_Close_up_portrait_of_the_face_of_Robin_in_Arkham_As_b898a45e-326e-4fb4-9cf8-c5b059b15703.png"
-        ]
-      },
-      {
-        "text": "Catwoman",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIXIwYYHE1TXh1DIh0CHQBsGBwcTg%3D%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/catwoman/images/Prompt_Bros_Close_up_portrait_of_the_face_of_The_Catwoman_in_Ar_c3c25595-2722-45cd-8510-9ef45c3c93f6.png"
-        ]
-      },
-       {
-        "text": "Scarecrow",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIHIRMdFkNAX0UcIAAAAAQ2XAUAT1w%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/scarecrow/images/Prompt_Bros_Close_up_portrait_of_the_face_of_The_Scarecrow_in_A_48cbbfc3-5406-459a-8e0f-7518e2ae70e4.png"
-        ]
-      },
-       {
-        "text": "Arkham Asylum",
-        "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIVMQsDBk0dQEBcPQIbQx4xHQE%3D",
-        "images": ["https://promptbros.github.io/CDN/MidJourney/illustration/arkham/asylum/images/Prompt_Bros_Wide_shot_of_Arkham_Asylum_71f5e8e1-e059-4e19-ba56-486e92802141.png"
-        ]
-      }
-    ]
-  },
   {
     "name": "Internal",
     "id" : "fzEHDAAFIjtcSVxEV0E-EwNCBCMRBF1KQV9c",
@@ -114,36 +45,5 @@
       "images": [
         "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
       ]
-    },
-    "prompts": [
-      {
-        "text": "Prompt Iterator",
-        "id": "fzEHDAAFIjtcSVxEV0E-EwNCHTYXHRJUXUIdQyIdAh0AbBgcHE4%3D",
-        "images": [
-        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
-        ]
-      },
-      {
-        "text": "MidJourney Prompter",
-        "id": "fzEHDAAFIjtcSVxEV0E+EwNCGSgCHRxNQkRXQX8CHQIZMgZBGVNdXg%3D%3D",
-        "images": [
-        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
-        ]
-      },
-      {
-        "text": "Visual Arts Curator",
-        "id": "fzEHDAAFIjtcSVxEV0E-EwNCFzcADgdPQB9CQT8fHxlaKAEAHQ%3D%3D",
-        "images": [
-        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
-        ]
-      },
-      {
-        "text": "Science 351 Post writer",
-        "id": "fzEHDAAFIjtcSVxEV0E-EwNCB3FHXgNPQUQdQyIdAh0AbBgcHE4%3D",
-        "images": [
-          "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
-        ]
-        }
-    ]
-  }
+    }
 ]
