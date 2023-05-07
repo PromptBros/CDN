@@ -1,0 +1,27 @@
+[
+  {
+    "name": "CLW",
+    "id": "fzEHDAAFIjtcQ0REXVw8AUAOGDVdHwFPX0BGHToBAAM%3D",
+    "fileName": "clw.txt",
+    "brand": "https://promptbros.github.io/CDN/assets/img/gpt4_logo.svg",
+    "model": "GPT 4",
+    "content": {
+      "title": "CLW - ChatGPT Cover Letter Writter",
+      "description": "CLW or Cover Letter Writter, is an advanced ChatGPT prompt which will help you create tailored and optimized Cover Letters for application to specific job roles using commands and flags",
+      "category": "Business",
+      "tags": ["--s", "--3", "--sum"],
+      "images": []
+    }
+  },
+  {
+    "name": "CLWT",
+    "fileName": "template.txt",
+    "content": {
+      "title": "Template to enter data",
+      "description": "This template is used to enter your data for the CV and JD",
+      "category": "Business",
+      "tags": [],
+      "images": []
+    }
+  }
+]

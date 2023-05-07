@@ -1,0 +1,84 @@
+Midjourney:
+
+Midjourney is an AI-powered tool that generates images from user prompts. MidJourney is proficient at adapting actual art styles to create an image of any combination of things the user wants. It excels at creating environments, especially fantasy and sci-fi scenes, with dramatic lighting that looks like rendered concept art from a video game. 
+
+Midjourney uses a Machine Learning algorithm trained on a large amount of image data to produce unique images. It is powered by Latent Diffusion Model (LDM), a cutting-edge text-to-image synthesis technique. Before understanding how LDMs work, let us look at what Diffusion models are and why we need LDMs.
+
+Diffusion models (DM) are transformer-based generative models that take a piece of data, for example, an image, and gradually add noise over time until it is not recognizable. From
+that point, they try reconstructing the image to its original form, and in doing so, they learn how to generate pictures or other data.
+
+The issue with DMs is that the powerful ones often consume hundreds of GPU days, and inference is quite expensive due to sequential evaluations. To enable DM training on limited computational resources without compromising their quality as well as flexibility, DMs are applied in the latent space of powerful pre-trained autoencoders.
+
+Training a diffusion model on such a representation makes it possible to achieve an optimal point between complexity reduction and detail preservation, significantly improving visual fidelity. Introducing a cross-attention layer to the model architecture turns the diffusion model into a powerful and flexible generator for generally conditioned inputs such as text and bounding boxes, enabling high-resolution convolution-based synthesis.
+
+Newest Model:
+
+The Midjourney V5 model is the newest and most advanced model, released on March 15th, 2023. To use this model, add the --v 5 parameter to the end of a prompt, or use the /settings command and select MJ Version 5
+
+This model has very high Coherency, excels at interpreting natural language prompts, is higher resolution, and supports advanced features like repeating patterns with --tile To turn it on type --v 5 after your prompt or select "V5" from /settings
+
+Prompts:
+
+A text phrase that produces an image is interpreted by Midjourney as a prompt. The words and phrases within the prompt are broken down into smaller tokens by Midjourney. These tokens are compared to the training data and used to generate an image. Unique and exciting images can be created with a well-crafted prompt. The maximum number of tokens considered per prompt is currently 75.
+
+Basic prompts - Prompts can be as simple as a single word, phrase, or emoji. Midjourney's default style heavily influences very short prompts. Therefore, a more descriptive prompt is better for a unique look. However, super-long prompts are not always better. It is better to concentrate on the main concepts of the creation.
+
+Grammar - Grammar, sentence structure, or words like humans are not understood by Midjourney. Word choice also matters, and more specific synonyms work better in many circumstances. Instead of big, use gigantic, enormous, or immense. Words should be removed when possible, as fewer words mean each word has a more powerful influence. Commas, brackets, and hyphens can be used to help organize thoughts, but Midjourney will not reliably interpret them. Capitalization is not considered by Midjourney.
+
+Focus - Describing what is wanted instead of what is not is better. If a party with "no cake" is asked for, the image will probably include a cake. Using advance prompting with the --no parameter is best to ensure an object is not in the final image.
+
+Details Matter - Anything left unsaid will be a surprise. It is important to be specific or vague about any details that are important to the final image. Being vague is a great way to get variety, but the specific details desired may not be obtained. Clarity about any context or details that are important to the final image is crucial. They are organized as:
+"Subject" person, animal, character, location, object, etc.
+"Medium: photo, painting, illustration, sculpture, doodle, tapestry, etc.
+Environment: indoors, outdoors, on the moon, in Narnia, underwater, the Emerald City, etc.
+"Lighting" soft, ambient, overcast, neon, studio lights, etc
+"Colour" vibrant, muted, bright, monochromatic, colorful, black and white, pastel, etc.
+"Mood: Sedate, calm, raucous, energetic, etc.
+"Composition" Portrait, headshot, closeup, birds-eye view, etc.
+
+Collective Nouns - Plural words leave a lot to chance. Specific numbers are preferred over general terms such as "cats." Collective nouns are also useful, such as "flock of birds" instead of "birds."
+
+Multi prompts - Separating prompts with double colons (::) allows Midjourney to consider two or more separate concepts individually. This allows for assigning relative importance to different parts of a prompt. Adding a double colon to a prompt indicates that each part of the prompt should be considered separately. For example, the prompt "hot dog" produces images of tasty hotdogs when considered together. However, if the prompt is separated into two parts, "hot:: dog," both concepts are considered separately, creating an image of a dog that is warm.
+
+Multi prompts weights - When using double colons to separate a prompt, a number can be added immediately after the double colon to assign relative importance to that part of the prompt. For example, the prompt "hot:: dog" produces an image of a dog that is hot. If the prompt is changed to "hot::2 dog," the word "hot" is given twice as much importance as "dog," resulting in an image of a dog that is very hot! If no weight is specified, the default value is 1.
+
+
+Style and prompting:
+
+Midjourney V5 generates significantly more photorealistic images compared to previous versions. While earlier styles were often depicted as paintings or illustrations, they are now represented as photographs. However, this, along with the straightforward, literal approach to prompts, can result in uninteresting, characterless, and less varied image generations without additional adjustments. Short prompts may not work as effectively, and longer, more explicit text about the desired output should be written (e.g., "cinematic photo with dramatic lighting"). Style references have become much more impactful, and the styles themselves have become more precise, detailed, and nuanced.
+
+It is also possible to create imagined styles to which MidJourney will respond with his interpretation of what a style with those words would lo0k like. E.G. avant-egyptian “imagines” a future art movement which takes elements from traditional ancient egyptian art.
+
+Midjourney also knows most artists so when a particular known artist’ style is required it should be mentioned by name. E.g. “in the style of Francis Bacon” would produce dark, twisted figures in the style of that artist. Combinations of various artists’ names will produce very interesting results as MidJourney tries to fuse his interpretation of those artists' styles together. E.g. “in the style of Stan Lee, Claude Monet” would probably produce an impressionistic comic-hero scene.
+
+Community Standards:
+
+Everyone has a right to an opinion about what images are beautiful, intriguing, or inspiring, and there are as many individual interpretations of what content is offensive, inappropriate, or harmful. Art has a long history of pushing the status quo to challenge social conventions, inspire discussion, and spark change. But there are a few things which are banned:
+
+Gore - Includes images of detached body parts of humans or animals, cannibalism, blood, violence (images of shooting or bombing someone, for instance), deformed bodies, severed limbs, pestilence, etc.
+
+NSFW or Adult Content - Avoid nudity, sexual organs, fixation on naked breasts, people in showers or on toilets, sexual imagery, fetishes, etc.
+
+Other Offensive Content - Other things may be deemed offensive or abusive because they can be viewed as racist, homophobic, disturbing, or in some way derogatory to a community. 
+
+Automatically Banned Keywords - Finding a balance between facilitating artistic expression and creating a safe and welcoming community for a broad group of users is challenging. Words like “sexy” are banned because they can be abused, softer synonyms like “alluring” or “provocative” should be used instead. 
+
+
+Parameters:
+
+Parameters are options added to a prompt that change how an image generates. Parameters can change an image's Aspect Ratios, switch between Midjourney Model Versions, change which Upscaler is used, and lots more.
+
+Parameters are always added to the end of a prompt. You can add multiple parameters to each prompt.
+
+Aspect Ratios --aspect, or --ar Change the aspect ratio of a generation.
+
+Chaos --chaos "number 0–100" Change how varied the results will be. Higher values produce more unusual and unexpected generations.
+
+No --no Negative prompting,” --no plants” would try to remove plants from the image.
+
+Quality --quality ".25, .5, 1, or 2", or --q ".25, .5, 1, or 2" How much rendering quality time you want to spend. The default value is 1. Higher values cost more and lower values cost less.
+
+Stylize --stylize "number, or --s "number" parameter influences how strongly Midjourney's default aesthetic style is applied to Jobs.
+
+
+- But wait, I have more info. Just acknowledge with READ

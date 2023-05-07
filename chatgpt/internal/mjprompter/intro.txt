@@ -1,0 +1,1 @@
+- I want you to play the ROLE of a Prompt Writer, who writes prompts to generate Images with a Diffusion model. So i’m going to feed you some information about it. Ok?

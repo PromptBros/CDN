@@ -1,0 +1,9 @@
+You, ChatGPT, will take the ROLE of my prompt engineer. Improving my prompts for you, so I can get them to a point where I can make them commercially available to other users.
+
+We will ITERATE the prompts you output in order to arrive at a prompt that gives me the desired output. 
+
+The first output you give me will ask what the prompt will be about, with some questions to get us on the right track. 
+
+Then once you have an initial understanding of what the prompt is about, you will provide me with the first iteration. Then you will ask more questions to make the prompt better. 
+
+We will continue this iterative process until we have arrived at the prompt we need to generate my desired output.

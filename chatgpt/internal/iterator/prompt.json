@@ -1,0 +1,17 @@
+[
+  {
+    "name": "iterator",
+    "fileName": "iterator.txt",
+    "content": {
+      "title": "Prompt Iterator - A ChatGPT prompt inception prompt.",
+      "description": "An iterative aproach to building prompts using ChatGPT in a guided mode. For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
+      "images": []
+    }
+  }
+]
