@@ -1,0 +1,49 @@
+[
+	{
+    "name": "Internal",
+    "id" : "fzEHDAAFIjtcSVxEV0E-EwNCBCMRBF1KQV9c",
+    "content": {
+      "title": "ChatGPT internal prompts",
+      "description": "For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
+      "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+      ]
+    },
+    "prompts": [
+      {
+        "text": "Prompt Iterator",
+        "id": "fzEHDAAFIjtcSVxEV0E-EwNCHTYXHRJUXUIdQyIdAh0AbBgcHE4%3D",
+        "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
+      },
+      {
+        "text": "MidJourney Prompter",
+        "id": "fzEHDAAFIjtcSVxEV0E+EwNCGSgCHRxNQkRXQX8CHQIZMgZBGVNdXg%3D%3D",
+        "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
+      },
+      {
+        "text": "Visual Arts Curator",
+        "id": "fzEHDAAFIjtcSVxEV0E-EwNCFzcADgdPQB9CQT8fHxlaKAEAHQ%3D%3D",
+        "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
+      },
+      {
+        "text": "Science 351 Post writer",
+        "id": "fzEHDAAFIjtcSVxEV0E-EwNCB3FHXgNPQUQdQyIdAh0AbBgcHE4%3D",
+        "images": [
+          "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+        ]
+        }
+    ]
+  }
+]

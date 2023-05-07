@@ -1,0 +1,49 @@
+[
+  {
+    "name": "CVTools",
+    "id": "fzEHDAAFIjtcQ0REXVw8AUAdFSEZQRlTXV40",
+    "content": {
+      "title": "CV Tools",
+      "description": "A series of Prompts designed to help candidates improve or fully re-write on demand their CV and write Cover Letters.",
+      "category": "Business",
+      "tags": [
+        "Business",
+        "Recruitment"
+      ],
+      "images": [
+        "https://promptbros.github.io/CDN/assets/img/openai_logo.svg"
+      ]
+    },
+  {
+    "name": "arkham",
+    "id": "fz8GCT4tBx0dRUsfW188BxwZBiMGBhxOHVFAWDgTAkIEIxEEXUpBX1w%3D",
+    "content": {
+      "title": "Arkham Asylum",
+      "description": "A series of Prompts designed for Midjourney depicting Arkham Asylum's characters rendered in a stunning fusion of painting and illustration techniques",
+      "category": "Midjourney",
+      "tags": [
+        "Midjourney",
+        "Super-heros",
+        "Illustration"
+      ],
+      "images": [
+        "https://promptbros.github.io/CDN/MidJourney/illustration/arkham/asylum/images/Prompt_Bros_Wide_shot_of_Arkham_Asylum_aab80a4f-3022-49ff-941d-9e28d6e1b620.png"
+      ]
+    },
+  {
+    "name": "Internal",
+    "id" : "fzEHDAAFIjtcSVxEV0E-EwNCBCMRBF1KQV9c",
+    "content": {
+      "title": "ChatGPT internal prompts",
+      "description": "For exclusive use of PromptBros staff.",
+      "category": "Internal",
+      "tags": [
+        "Utility",
+        "Limited use",
+        "Internal"
+      ],
+      "images": [
+        "https://promptbros.github.io/CDN/assets/img/promptbros_signature_A_colour_no_bg.png"
+      ]
+    }
+]
